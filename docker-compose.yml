@@ -1,0 +1,45 @@
+version: '3'
+services:
+  teamspeak:
+    container_name: teamspeak
+    user: root
+    image: teamspeak
+    restart: always
+    ports:
+      - 9987:9987/udp
+      - 10011:10011
+      - 30033:30033
+    volumes:
+      - ./teamspeak/:/var/ts3server/
+    environment:
+      TS3SERVER_LICENSE: accept
+      TS3SERVER_DB_PLUGIN: ts3db_mariadb
+      TS3SERVER_DB_SQLCREATEPATH: create_mariadb
+      TS3SERVER_DB_HOST: db
+      TS3SERVER_DB_USER: root
+      TS3SERVER_DB_PASSWORD: Sp0kst4D!
+      TS3SERVER_DB_NAME: teamspeak
+      TS3SERVER_DB_WAITUNTILREADY: 30
+  db:
+    container_name: mariaDB
+    image: mariadb
+    restart: always
+    ports:
+      - 3306:3306/tcp
+    environment:
+      MYSQL_ROOT_PASSWORD: Sp0kst4D!
+      MYSQL_DATABASE: teamspeak
+
+  phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      container_name: phpmyadmin
+      environment:
+          - PMA_ARBITRARY=1
+          - PMA_HOST=db
+      restart: always
+      ports:
+          - 8080:80
+      volumes:
+          - /sessions
+      links:
+          - db

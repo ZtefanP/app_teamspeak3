@@ -1,0 +1,6 @@
+2020-05-27 09:26:20.427194|INFO    |VirtualServerBase|1  |listening on 0.0.0.0:9987, [::]:9987
+2020-05-27 09:26:20.442870|WARNING |VirtualServer |1  |--------------------------------------------------------
+2020-05-27 09:26:20.442989|WARNING |VirtualServer |1  |ServerAdmin privilege key created, please use the line below
+2020-05-27 09:26:20.443066|WARNING |VirtualServer |1  |token=oezPe59Vdp22N+t6+k2OFRBabVffhdzcb7h+IEOP
+2020-05-27 09:26:20.443145|WARNING |VirtualServer |1  |--------------------------------------------------------
+2020-05-27 09:28:47.063099|INFO    |VirtualServerBase|1  |stopped

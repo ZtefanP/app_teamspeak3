@@ -1,0 +1,21 @@
+2020-05-27 09:50:31.946867|INFO    |ServerLibPriv |   |TeamSpeak 3 Server 3.12.1 (2020-03-27 10:38:47)
+2020-05-27 09:50:31.948678|INFO    |ServerLibPriv |   |SystemInformation: Linux 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1+deb10u1 (2020-04-27) x86_64 Binary: 64bit
+2020-05-27 09:50:31.950277|INFO    |DatabaseQuery |   |dbPlugin name:    MariaDB plugin, version 3, (c)TeamSpeak Systems GmbH
+2020-05-27 09:50:31.950370|INFO    |DatabaseQuery |   |dbPlugin version: 2
+2020-05-27 09:50:47.799904|INFO    |SQL           |   |db_CreateTables() tables created
+2020-05-27 09:50:48.401768|WARNING |Accounting    |   |Unable to open licensekey.dat, falling back to limited functionality
+2020-05-27 09:50:48.414549|INFO    |Accounting    |   |Licensing Information
+2020-05-27 09:50:48.414745|INFO    |Accounting    |   |licensed to       : Anonymous
+2020-05-27 09:50:48.414914|INFO    |Accounting    |   |type              : No License
+2020-05-27 09:50:48.414975|INFO    |Accounting    |   |starting date     : Sat Feb  1 00:00:00 2020
+2020-05-27 09:50:48.415062|INFO    |Accounting    |   |ending date       : Mon Feb  1 00:00:00 2021
+2020-05-27 09:50:48.415115|INFO    |Accounting    |   |max virtualservers: 1
+2020-05-27 09:50:48.415176|INFO    |Accounting    |   |max slots         : 32
+2020-05-27 09:50:49.598715|INFO    |              |   |Puzzle precompute time: 1129
+2020-05-27 09:50:49.600380|INFO    |FileManager   |   |listening on 0.0.0.0:30033, [::]:30033
+2020-05-27 09:50:49.617284|INFO    |VirtualSvrMgr |   |executing monthly interval
+2020-05-27 09:50:49.618386|INFO    |VirtualSvrMgr |   |reset virtualserver traffic statistics
+2020-05-27 09:50:49.708161|INFO    |              |   |myTeamSpeak identifier revocation list was downloaded successfully - all related features are activated
+2020-05-27 09:50:49.897130|INFO    |Query         |   |listening for query on 0.0.0.0:10011, [::]:10011
+2020-05-27 09:50:49.898086|INFO    |CIDRManager   |   |updated query_ip_whitelist ips: 127.0.0.1/32, ::1/128, 
+2020-05-27 09:55:44.980221|INFO    |ServerMain    |   |Received signal SIGTERM, shutting down.
