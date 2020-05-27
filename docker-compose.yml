@@ -17,7 +17,7 @@ services:
       TS3SERVER_DB_SQLCREATEPATH: create_mariadb
       TS3SERVER_DB_HOST: db
       TS3SERVER_DB_USER: root
-      TS3SERVER_DB_PASSWORD: Sp0kst4D!
+      TS3SERVER_DB_PASSWORD: change-me-if-needed
       TS3SERVER_DB_NAME: teamspeak
       TS3SERVER_DB_WAITUNTILREADY: 30
     links: 
@@ -30,7 +30,7 @@ services:
     ports:
       - 3306:3306/tcp
     environment:
-      MYSQL_ROOT_PASSWORD: Sp0kst4D!
+      MYSQL_ROOT_PASSWORD: change-me-if-needed
       MYSQL_DATABASE: teamspeak
     volumes: 
       - ./db:/var/lib/mysql
