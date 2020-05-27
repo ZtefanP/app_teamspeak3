@@ -1,3 +1,4 @@
+![GitHub Logo](https://i.imgur.com/67OS5XQ.jpg)
 # Teamspeak 3 with mariadb &amp; phpmyadmin
 
 
