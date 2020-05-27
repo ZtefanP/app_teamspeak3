@@ -20,6 +20,9 @@ services:
       TS3SERVER_DB_PASSWORD: Sp0kst4D!
       TS3SERVER_DB_NAME: teamspeak
       TS3SERVER_DB_WAITUNTILREADY: 30
+    links: 
+      - db
+
   db:
     container_name: mariaDB
     image: mariadb
@@ -29,6 +32,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: Sp0kst4D!
       MYSQL_DATABASE: teamspeak
+    volumes: 
+      - ./db:/var/lib/mysql
 
   phpmyadmin:
       image: phpmyadmin/phpmyadmin

@@ -1,8 +1,0 @@
-2020-05-27 09:50:49.876004|INFO    |VirtualServerBase|1  |listening on 0.0.0.0:9987, [::]:9987
-2020-05-27 09:50:49.896096|WARNING |VirtualServer |1  |--------------------------------------------------------
-2020-05-27 09:50:49.896175|WARNING |VirtualServer |1  |ServerAdmin privilege key created, please use the line below
-2020-05-27 09:50:49.896207|WARNING |VirtualServer |1  |token=6dDePnEUQ541B7INVlrXapvO2IR2D2Ob2vNUj0Zp
-2020-05-27 09:50:49.896245|WARNING |VirtualServer |1  |--------------------------------------------------------
-2020-05-27 09:51:34.142056|INFO    |VirtualServer |1  |client (id:3) was added to servergroup 'Server Admin'(id:6) by client 'server'(id:0)
-2020-05-27 09:51:34.143235|INFO    |VirtualServer |1  |client 'Ztefan'(id:3) used privilege key '6dDePnEUQ541B7INVlrXapvO2IR2D2Ob2vNUj0Zp' and was added to servergroup 'Server Admin'(id:6)
-2020-05-27 09:55:44.981119|INFO    |VirtualServerBase|1  |stopped
