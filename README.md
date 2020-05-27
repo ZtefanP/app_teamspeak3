@@ -6,5 +6,4 @@
 
 * MariaDB for storing information
 
-* Phpmyadmin for administrating the database if needed.
-
+* Phpmyadmin for administation to database.
